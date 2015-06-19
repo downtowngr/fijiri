@@ -2,6 +2,25 @@
 // POI LABELS
 // =====================================================================
 
+
+#poi[poi='calder'] {
+  marker-file: url("img/poi/calder.svg");
+  [zoom=16]  { marker-height: 12; }
+  [zoom=17]  { marker-height: 20; }
+  [zoom=18]  { marker-height: 34; }
+  [zoom=19] { marker-height: 50; }
+}
+
+
+#poi[poi='dgri'] {
+  marker-file: url("img/poi/dgri.svg");
+  [zoom=16] { marker-height: 12; }
+  [zoom=17]  { marker-height: 20; }
+  [zoom=18]  { marker-height: 34; }
+  [zoom=19] { marker-height: 50; }
+}
+
+
 #poi_label[type!='Aerodrome'][type!='Rail Station'][scalerank<4] {
   [zoom<14],
   [zoom>=14][scalerank=1][localrank<=1],
@@ -16,7 +35,7 @@
     text-halo-fill: fadeout(#fff,75);
     text-halo-radius: 1;
     text-halo-rasterizer: fast;
-    text-line-spacing: -4;
+    text-line-spacing: -3;
     text-wrap-width: 80;
     text-wrap-before: true;
     [scalerank=1] {

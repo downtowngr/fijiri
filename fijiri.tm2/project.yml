@@ -12,17 +12,17 @@ bounds:
   - 180
   - 85
 center: 
-  - -85.6714
-  - 42.9679
+  - -85.6737
+  - 42.9668
   - 17
 description: Custom map style for DGRI.
 format: "png8:m=h:c=64"
 interactivity_layer: ''
 layers: null
 maxzoom: 19
-minzoom: 0
+minzoom: 13
 name: Fijiri
-source: "mapbox:///mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-streets-v5,dgri.d6ac37bc"
 styles: 
   - vars.mss
   - bg.mss

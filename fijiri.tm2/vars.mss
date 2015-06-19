@@ -6,16 +6,18 @@
 // FONTS
 // =====================================================================
 
+Map { font-directory: url('fonts'); }
+
 // Language
 @name: '[name]';
 
 // set up font sets for various weights and styles
-@sans_lt:           "Lato Light", "Open Sans Regular","Arial Unicode MS Regular";
-@sans_lt_italic:    "Lato Light Italic", "Open Sans Italic","Arial Unicode MS Regular";
-@sans:              "Lato Regular", "Open Sans Semibold","Arial Unicode MS Regular";
-@sans_bold:         "Lato Bold", "Open Sans Bold","Arial Unicode MS Regular";
-@sans_italic:       "Lato Italic", "Open Sans Semibold Italic","Arial Unicode MS Regular";
-@sans_bold_italic:  "Lato Bold Italic", "Open Sans Bold Italic","Arial Unicode MS Regular";
+@sans_lt:           "Verlag Light", "Lato Light", "Open Sans Regular","Arial Unicode MS Regular";
+@sans_lt_italic:    "Verlag Light Italic", "Lato Light Italic", "Open Sans Italic","Arial Unicode MS Regular";
+@sans:              "Verlag Book", "Lato Regular", "Open Sans Semibold","Arial Unicode MS Regular";
+@sans_bold:         "Verlag Bold", "Lato Bold", "Open Sans Bold","Arial Unicode MS Regular";
+@sans_italic:       "Verlag Book Italic", "Lato Italic", "Open Sans Semibold Italic","Arial Unicode MS Regular";
+@sans_bold_italic:  "Verlag Bold Italic", "Lato Bold Italic", "Open Sans Bold Italic","Arial Unicode MS Regular";
 
 // =====================================================================
 // LANDUSE & LANDCOVER COLORS
